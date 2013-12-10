@@ -3,3 +3,4 @@
 ###Ferramentas utilizadas:
 
 reveal.js
+font awesome
