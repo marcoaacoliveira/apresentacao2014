@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Candidato Marco Oliveira Projetos 2014</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="">
+					<h1>O Candidato</h1>
+					<h3>Marco Antonio Oliveira</h3>
+					<a class="image">
+							<img width="218" height="238" src="test/578102_442538015829100_567716783_n.jpg" alt="O candidato">
+					</a>
+
+					<p>
+						Projetos 2014
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Gerenciamento de Projetos</h2>
+						<p>
+							Ténicas de desenvolvimento ágil na InfoJr já!
+						</p>
+					</section>
+					<section>	
+						<h2>Estórias</h2>
+						<span class="framgment fade-out">
+							<p class="fragment fade-in">Perpectiva do usuário</p>
+						    <p class="fragment fade-in">Melhora na percepção de problemas</p>
+						    <p class="fragment fade-in">Soluções apresentadas mais rapidamente</p>
+						    <p class="fragment fade-in">Todos criam suas estórias</p>
+						    <p class="fragment fade-in">Aumenta a probabilidade de sucesso</p>
+						</span>
+					</section>
+					<section>
+						<img width="218" height="238" src="test/github-logo-transparent.png" alt="OctoCat">
+						<h2>GitHub</h2>
+						<p>Rede social de desenvolvedores</p>
+					</section>
+					<section data-background="test/git-issues.png">
+						<div class="legend">
+							<p>Você pode criar as estórias e designar cada estória a um desenvolvedor.</p>
+						</div>
+					</section>
+					<section data-background="test/pull-request.png">
+						<div class="legend">
+							<p>No pull request é possível ver cada commit feito, comentar o código, ver todas as diferenças e muito mais.</p>
+						</div>
+					</section>
+					<section data-background="test/Contribuicao.png">
+						<div class="legend">
+							<p>É possível analisar um gráfico de cada contribuidor individualmente e do projeto como um todo.</p>
+						</div>
+					</section>
+					<section>
+						<h2>Basta conhecer 6 comandos!</h2>
+						<pre><code data-trim contenteditable>
+							
+$git add .
+$git commit
+$git pull
+$git push
+$git branch
+$git checkout
+						
+						</code></pre>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<h1>Considerações Finais</h1>
+					<p>É preciso coragem e confiança no trabalho de cada e de todos ao
+mesmo tempo.
+Acredito que isso seja o bastante para que possamos fazer dessa equipe de 2014 uma equipe de
+grandes realizações.
+Obrigado a todos!
+</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
